@@ -1,0 +1,194 @@
+:root {
+    --darkBackground: #1f2937;
+    --lightBackground: white;
+    --quoteBackground: #e5e7eb;
+    --darkTextColor: #f9faf8;
+    --lightTextColor: #1f2937;
+    --secondaryTextColor: #e5e7eb;
+    --buttonCta: #3882f6;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    width: 100vw;
+}
+.center-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1000px;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #f9faf8;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
+li {
+    list-style: none;
+    font-size: 18px;
+    color: var(--secondaryTextColor);
+}
+section {
+    width: 100vw;
+}
+.section-one {
+    display: flex;
+    justify-content: center;
+    background-color: var(--darkBackground);
+}
+.s1Container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 240px;
+    margin:  120px 0px 120px 0px;
+
+}
+.s1Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--darkTextColor)
+}
+p {
+    font-size: 18px;
+    color: var(--secondaryTextColor);
+}
+button {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+    width: 130px;
+}
+.topButton {
+    color: var(--darkTextColor);
+    background-color: var(--buttonCta);
+    border: none;
+}
+.s1right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: grey;
+}
+.section-two {
+    background-color: var(--lightBackground);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px 0px 50px 0px;
+}
+.s2Container {
+    display: flex;
+    gap: 50px;
+}
+.s2Segment {
+    width: 170px;
+}
+.s2Square{
+    width: 170px;
+    height: 170px;
+    background-color: var(--lightBackground);
+    border: solid 4px #3882f6;
+    border-radius: 10%;
+}
+.s2Text {
+    padding-top: 10px;
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+}
+.section-three {
+    background-color: var(--quoteBackground);
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--lightTextColor);
+}
+.s3Quote {
+    width: 800px;
+    font-size: 36px;
+}
+.s3Name {
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+}
+.section-four {
+    background-color: var(--lightBackground);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s4Container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: var(--buttonCta);
+    padding: 50px 100px 50px 100px;
+    border: none;
+    border-radius: 10px;
+}
+.ctaTop {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--darkTextColor);
+}
+.ctaBottom {
+    font-size: 18px;
+    color: var(--secondaryTextColor);
+}
+.s4Right {
+    display: flex;
+    align-items: flex-end;
+}
+.bottomButton {
+    background-color: var(--buttonCta);
+    border: white 2px solid;
+    color: var(--lightBackground)
+}
+footer {
+    background-color: var(--darkBackground);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondaryTextColor);
+    font-size: 18px;
+}
