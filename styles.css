@@ -4,8 +4,9 @@
     --quoteBackground: #e5e7eb;
     --darkTextColor: #f9faf8;
     --lightTextColor: #1f2937;
-    --secondaryTextColor: #e5e7eb;
+    --secondaryTextColor: #E5E7EB;
     --buttonCta: #3882f6;
+    --secretColor: #6d747d;
 
 }
 * {
@@ -45,7 +46,7 @@ ul {
 li {
     list-style: none;
     font-size: 18px;
-    color: var(--secondaryTextColor);
+    color: var(--secondaryTextColor)
 }
 section {
     width: 100vw;
@@ -61,7 +62,6 @@ section {
     width: 1000px;
     height: 240px;
     margin:  120px 0px 120px 0px;
-
 }
 .s1Left {
     display: flex;
@@ -95,7 +95,7 @@ button {
     justify-content: center;
     align-items: center;
     width: 500px;
-    background-color: grey;
+    background-color: var(--secretColor)
 }
 .section-two {
     background-color: var(--lightBackground);
